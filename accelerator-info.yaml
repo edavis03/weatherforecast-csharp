@@ -1,0 +1,15 @@
+id: a229197d-3124-422a-a8b8-040f7548ad86
+timestamp: 2023-10-16T15:32:28Z
+username: demily
+source: VSCODE
+accelerator:
+  name: weatherforecast-csharp
+  source:
+    image: us-docker.pkg.dev/tap-sandbox-dev/tap-bits/tap-packages@sha256:09609dda82694866239a01daa6ab5740af3d64149300dcda22ac09315b4ea439
+fragments:
+  - name: tap-workload
+    source:
+      image: us-docker.pkg.dev/tap-sandbox-dev/tap-bits/tap-packages@sha256:d9c7d8d322f0740666ba7c752a9174d1eb66274338c4f0e211edb1d448104c2a
+options:
+  applicationName: tanzu-dotnet
+  projectName: weatherforecast-csharp
